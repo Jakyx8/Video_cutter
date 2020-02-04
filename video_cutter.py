@@ -2,7 +2,7 @@
 import cv2 as cv
 
 
-#Loading CSV values and video
+#Loading video
 cap = cv.VideoCapture('/home/jakyx/Desktop/Python scripts/NSA_4_rekr_aceton_subtitled.avi')
 
 #Defining output
