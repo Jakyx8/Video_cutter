@@ -18,7 +18,7 @@ maxheight = cap.get(cv.CAP_PROP_FRAME_HEIGHT)
 fourcc = cv.VideoWriter_fourcc(*'MJPG')
 out = cv.VideoWriter(output, int(fourcc), int(fps), (int(maxwidth), int(maxheight)))
 
-#Imbuing temperature on a frame
+#Cutting video
 i = start_frame
 cap.set(cv.CAP_PROP_POS_FRAMES, start_frame)
 while(cap.isOpened()):
